@@ -1,0 +1,2 @@
+# Running just the only spec for performance
+rspec test/controllers/api/v1/jokes_controller_test_spec.rb
