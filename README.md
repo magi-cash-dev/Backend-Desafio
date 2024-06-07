@@ -1,21 +1,27 @@
-# Teste Introdutório para Desenvolvedor Backend: API de Piadas do Chuck Norris
+# Start API to Chuck Norris Joke
 
-## Objetivo do Teste
-Desenvolver uma API simples, utilizando Node.js com TypeScript ou Ruby on Rails, que faça uso de um endpoint para buscar piadas aleatórias usando a API do [Chuck Norris](https://api.chucknorris.io/).
+This file will inform about how run this API locally.
 
-## Descrição do Teste
-Criar um endpoint do tipo `GET` chamado `/random-joke` que, ao ser acessado, faz uma chamada para `https://api.chucknorris.io/jokes/random`. Você pode formatar a resposta como considerar mais apropriado, priorizando a legibilidade e utilidade dos dados retornados.
+## Requisites
 
-## Requisitos Básicos
-1. **Funcionalidade**: O endpoint deve ser facilmente acessível e retornar uma piada aleatória em formato JSON.
-2. **Tratamento de Erros**: A API deve gerenciar erros de forma eficaz, retornando uma mensagem clara caso a chamada à API externa falhe.
-3. **Cliente**: Imagine que a API vai ser consumida por um website que está sob o dns https://fake-website-never-exists.com.fake.
+You need: Docker, Docker-compose, installed in your machine.
 
-## Documentação
-- Forneça instruções claras sobre como configurar e executar a API, incluindo quaisquer dependências necessárias.
+## File `.env`
+The file needs to be created but may be empty.
 
-## Entrega
-- Submeta o código através de uma Pull Request neste repositório.
+## Start Conteiner
+```
+docker-compose up
+```
 
-## Nota para o Candidato
-- Este teste tem como objetivo avaliar suas habilidades básicas em desenvolvimento de APIs. A qualidade do código, organização, e a aderência às práticas recomendadas serão consideradas na avaliação. Novos testes podem ser solicitados.
+Now your API is just running in:
+
+```
+localhost:3000
+```
+
+## For Run Tests
+
+```
+docker-compose exec app rspec
+```
