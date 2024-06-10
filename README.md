@@ -50,11 +50,6 @@ Este projeto é uma API simples desenvolvida em Ruby on Rails que retorna piadas
    docker compose up --build
 
 3. Crie o banco de dados:
-
-<<<<<<< HEAD
-* ...
->>>>>>> 53f8562 (create new jokes endpoint)
-=======
    ```sh
    docker compose run web rails db:create
 
