@@ -57,8 +57,9 @@ Este projeto é uma API simples desenvolvida em Ruby on Rails que retorna piadas
 
 Para obter uma piada aleatória, faça uma requisição GET para:
 
-```sh
-http://localhost:3000/random-joke
+  ```sh
+  http://localhost:3000/random-joke
+  ```
 
 ### Exemplo de resposta
 
@@ -66,6 +67,7 @@ http://localhost:3000/random-joke
 {
   "value": "Chuck Norris joke"
 }
+```
 
 ### Tratamento de Erros
 
@@ -73,6 +75,7 @@ Se a chamada à API externa falhar, a resposta será:
 
 ```sh
 http://localhost:3000/random-joke
+```
 
 ### Exemplo de resposta
 
@@ -80,11 +83,12 @@ http://localhost:3000/random-joke
 {
   "error": "Failed to fetch joke: <error_message>"
 }
+```
 
 ### Testes
 
 Para executar os testes, use o comando:
 
-   ```sh
-   docker compose run web bundle exec rspec
->>>>>>> 2f5f228 (add documentation)
+```sh
+docker compose run web bundle exec rspec
+```
