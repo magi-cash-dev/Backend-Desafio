@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: postgres
+  password: password
+  host: db
+  pool: 5
+
+development:
+  <<: *default
+  database: jokes_development
+
+test:
+  <<: *default
+  database: jokes_test
+
+production:
+  <<: *default
+  database: jokes_production
+  username: jokes
+  password: <%= ENV['JOKES_DATABASE_PASSWORD'] %>
