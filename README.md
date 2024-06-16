@@ -19,3 +19,24 @@ Criar um endpoint do tipo `GET` chamado `/random-joke` que, ao ser acessado, faz
 
 ## Nota para o Candidato
 - Este teste tem como objetivo avaliar suas habilidades básicas em desenvolvimento de APIs. A qualidade do código, organização, e a aderência às práticas recomendadas serão consideradas na avaliação. Novos testes podem ser solicitados.
+
+## Como executar
+- Instalar dependencias
+```bash
+npm install
+```
+
+- Desenvolvimento
+```bash
+npm run dev
+```
+
+- Build
+```bash
+npm run build
+```
+
+- Start
+```bash
+npm start
+```
