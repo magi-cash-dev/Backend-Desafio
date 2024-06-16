@@ -1,0 +1,27 @@
+{
+  "name": "backend-tuto",
+  "version": "1.0.0",
+  "description": "## Objetivo do Teste Desenvolver uma API simples, utilizando Node.js com TypeScript ou Ruby on Rails, que faça uso de um endpoint para buscar piadas aleatórias usando a API do [Chuck Norris](https://api.chucknorris.io/).",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "axios": "^1.7.2",
+    "fastify": "^4.28.0",
+    "fastify-plugin": "^4.5.1",
+    "nodemon": "^3.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/pino": "^7.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
