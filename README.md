@@ -12,7 +12,25 @@ Criar um endpoint do tipo `GET` chamado `/random-joke` que, ao ser acessado, faz
 3. **Cliente**: Imagine que a API vai ser consumida por um website que está sob o dns https://fake-website-never-exists.com.fake.
 
 ## Documentação
-- Forneça instruções claras sobre como configurar e executar a API, incluindo quaisquer dependências necessárias.
+
+### Requisitos:
+- Ruby 3.2 (Recomendo [asdf](https://github.com/asdf-vm/asdf-ruby))
+- Rails 7
+- Bundler
+
+### Instruções:
+
+Rodando localmente:
+```bash
+$ bundle
+$ bundle exec rails s
+$ curl localhost:3000/random-joke
+```
+Specs e Lint:
+```bash
+$ bundle exec rspec
+$ bundle exec rubocop
+```
 
 ## Entrega
 - Submeta o código através de uma Pull Request neste repositório.
