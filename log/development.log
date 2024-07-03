@@ -1,0 +1,406 @@
+Started GET "/api/random" for ::1 at 2024-07-02 17:06:50 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/random"):
+  
+Started GET "/api/random" for ::1 at 2024-07-02 17:06:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/random"):
+  
+Started GET "/api/random" for ::1 at 2024-07-02 17:07:36 -0300
+  
+ActionController::RoutingError (uninitialized constant ApiController):
+  
+Started GET "/api/random" for ::1 at 2024-07-02 17:07:37 -0300
+  
+ActionController::RoutingError (uninitialized constant ApiController):
+  
+Started GET "/" for ::1 at 2024-07-02 17:09:46 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/londerson/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/londerson/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 458)
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 4289)
+
+
+Started GET "/" for ::1 at 2024-07-02 17:09:55 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/londerson/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/londerson/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 254)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 835)
+
+
+Started GET "/api/random" for ::1 at 2024-07-02 17:10:05 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/random"):
+  
+Started GET "/api/random" for ::1 at 2024-07-02 17:10:07 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/random"):
+  
+Started GET "/api/jokes/random" for ::1 at 2024-07-02 17:10:27 -0300
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+Started GET "/api/jokes/random" for ::1 at 2024-07-02 17:10:29 -0300
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+Started GET "/api/jokes/random" for ::1 at 2024-07-02 17:10:30 -0300
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+Started GET "/api/jokes/random" for ::1 at 2024-07-02 17:10:31 -0300
+  
+ActionController::RoutingError (uninitialized constant Api):
+  
+Started GET "/api/jokes/random" for ::1 at 2024-07-02 18:06:11 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/jokes/random"):
+  
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:06:29 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/jokes/random"):
+  
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:06:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/jokes/random"):
+  
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:06:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/jokes/random"):
+  
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:07:17 -0300
+  
+AbstractController::ActionNotFound (The action 'random' could not be found for Api::V1::JokesController):
+  
+actionpack (7.0.8.4) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.8.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.9) lib/rack/etag.rb:27:in `call'
+rack (2.2.9) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.9) lib/rack/head.rb:12:in `call'
+activerecord (7.0.8.4) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.9) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.9) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:07:19 -0300
+  
+AbstractController::ActionNotFound (The action 'random' could not be found for Api::V1::JokesController):
+  
+actionpack (7.0.8.4) lib/abstract_controller/base.rb:146:in `process'
+actionpack (7.0.8.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.9) lib/rack/etag.rb:27:in `call'
+rack (2.2.9) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.9) lib/rack/head.rb:12:in `call'
+activerecord (7.0.8.4) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.9) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.9) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.4) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.8) lib/puma/configuration.rb:252:in `call'
+puma (5.6.8) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.8) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.8) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.8) lib/puma/server.rb:443:in `process_client'
+puma (5.6.8) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:07:35 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1163ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1836)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:08:16 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 500 Internal Server Error in 961ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1086)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:08:41 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 500 Internal Server Error in 999ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1077)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:08:50 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 500 Internal Server Error in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 185)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:09:08 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 50486ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 67736)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:09:58 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 904ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1084)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:10:02 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 935ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1008)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-02 18:18:35 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1393ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1009)
+
+
+Started GET "/manifest.json" for ::1 at 2024-07-03 12:30:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/static/js/bundle.js.map" for ::1 at 2024-07-03 12:30:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js.map"):
+  
+Started GET "/" for ::1 at 2024-07-03 12:31:02 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/londerson/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/londerson/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 263)
+Completed 200 OK in 9ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1900)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:31:13 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1176ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3457)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:31:14 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 897ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1009)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:38:14 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1062ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 3455)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:38:27 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 922ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1025)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:38:49 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1001ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1002)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:38:52 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 922ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1005)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:39:02 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 919ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 3454)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:39:08 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 907ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1008)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:39:13 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 973ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1002)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:20 -0300
+Processing by Api::V1::JokesController#random as HTML
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:20 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 918ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 2410)
+
+
+Completed 200 OK in 940ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1945)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:21 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 304ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1000)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:22 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 927ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1004)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:31 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 916ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:45 -0300
+Processing by Api::V1::JokesController#random as HTML
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:46 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 362ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2162)
+
+
+Completed 200 OK in 932ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1945)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:53 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 296ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1000)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:41:54 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 283ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:42:00 -0300
+Processing by Api::V1::JokesController#random as HTML
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:42:01 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 892ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 2410)
+
+
+Completed 200 OK in 964ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1935)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:42:05 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1038ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:42:11 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 984ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:42:13 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1031ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1004)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:42:18 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 871ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:42:20 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 911ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:02 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 943ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1031)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:05 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 939ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1000)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:12 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 934ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1004)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:13 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 962ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:22 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 324ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1003)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:23 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 893ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:31 -0300
+Processing by Api::V1::JokesController#random as HTML
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:31 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 280ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Completed 200 OK in 911ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 3346)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:35 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1005ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:43:44 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 910ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:44:31 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 1165ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1024)
+
+
+Started GET "/api/v1/jokes/random" for ::1 at 2024-07-03 12:45:01 -0300
+Processing by Api::V1::JokesController#random as HTML
+Completed 200 OK in 902ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 1001)
+
+
